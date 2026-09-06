@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import blocks, kpis, maintenance, optimization, tracks
+from app.api.routes import blocks, kpis, maintenance, optimization, tracks, trains
 from app.database import init_db
 
 
@@ -26,6 +26,7 @@ app.include_router(blocks.router)
 app.include_router(kpis.router)
 app.include_router(maintenance.router)
 app.include_router(tracks.router)
+app.include_router(trains.router)
 
 
 @app.get("/health")

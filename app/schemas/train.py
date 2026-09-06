@@ -1,15 +1,18 @@
 from datetime import datetime
-from typing import Optional
+
 from pydantic import BaseModel, ConfigDict
 
-class TrainScheduleBase(BaseModel):
+from app.database.models import LineType
+
+
+class TrainScheduleResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
     train_number: str
     train_name: str
-    priority: int
-    section_code: str
-    entry_time: datetime
-    exit_time: datetime
-
-class TrainScheduleResponse(TrainScheduleBase):
-    id: int
-    model_config = ConfigDict(from_attributes=True)
+    priority_level: int
+    track_section_id: int
+    scheduled_entry: datetime
+    scheduled_exit: datetime
+    direction: LineType
