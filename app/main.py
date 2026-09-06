@@ -1,40 +1,33 @@
-import os
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
 
-from app.api.routes import tracks, trains, maintenance, blocks
+from app.api.routes import blocks, kpis, maintenance, optimization, tracks
+from app.database import init_db
 
-app = FastAPI(
-    title="AI Automatic Block Planning Engine",
-    description="Indian Railways SIH - Multi-department Maintenance Optimization",
-    version="1.0.0"
-)
 
-# Enable CORS for local React development
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    init_db()
+    yield
+
+
+app = FastAPI(title="Railway Block Optimizer API", version="1.0.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173", "http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(optimization.router)
+app.include_router(blocks.router)
+app.include_router(kpis.router)
+app.include_router(maintenance.router)
+app.include_router(tracks.router)
 
-# Include API Routers
-app.include_router(tracks.router, prefix="/api")
-app.include_router(trains.router, prefix="/api")
-app.include_router(maintenance.router, prefix="/api")
-app.include_router(blocks.router, prefix="/api")
 
-# Serve compiled frontend from Railway/dist if available
-DIST_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Railway", "dist")
-if os.path.exists(DIST_PATH):
-    app.mount("/assets", StaticFiles(directory=os.path.join(DIST_PATH, "assets")), name="assets")
-
-    @app.get("/{full_path:path}")
-    async def serve_frontend(full_path: str):
-        file_path = os.path.join(DIST_PATH, full_path)
-        if os.path.isfile(file_path):
-            return FileResponse(file_path)
-        return FileResponse(os.path.join(DIST_PATH, "index.html"))
+@app.get("/health")
+def health():
+    return {"status": "ok"}
