@@ -1,0 +1,2089 @@
+{
+  "effective_from": "01.09.2026",
+  "direction": "DN",
+  "train_type": "AC TRAINS",
+  "line": "Western Railway (Mumbai) - Churchgate to Virar section",
+  "stations_in_order": [
+    "CHURCHGATE",
+    "Marine Lines",
+    "Charni Road",
+    "Grant Road",
+    "M'BAI CENTRAL (L)",
+    "Mahalakshmi",
+    "Lower Parel",
+    "Prabhadevi",
+    "DADAR",
+    "Matunga Road",
+    "Mahim Jn.",
+    "BANDRA",
+    "Khar Road",
+    "Santa Cruz",
+    "Vile Parle",
+    "ANDHERI",
+    "Jogeshwari",
+    "Ram Mandir",
+    "Goregaon",
+    "Malad",
+    "Kandivli",
+    "BORIVALI",
+    "Dahisar",
+    "Mira Road",
+    "Bhayandar",
+    "Naigaon",
+    "Vasai Road",
+    "Nallasopara",
+    "VIRAR"
+  ],
+  "note": "All trains in this table are AC (air-conditioned) rakes, as indicated by the 'DN AC TRAINS' header. Times mapped from PDF word coordinates to nearest station row. 'from_code' = origin abbreviation above the train number (VR=Virar, BVI=Borivali, BYR=Bhayandar, BSR=Vasai Road, MDD=Mira Road, GMN=Goregaon, NSP=Nallasopara, ADH=Andheri, BCL=Borivali Car shed?). 'notes' holds non-time annotation text found in that column in reading order (e.g. day-restriction labels 'ON SAT & SUN'/'NON AC', or footnotes like 'P*'). A footnote on the source PDF states train 94113 will not halt at Borivali.",
+  "footnotes_raw": [
+    "* 94113 Will Not Halt at Borivali"
+  ],
+  "num_trains": 74,
+  "trains": [
+    {
+      "train_no": "94001",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "BORIVALI": "05:07",
+        "Dahisar": "05:11",
+        "Mira Road": "05:16",
+        "Bhayandar": "05:21",
+        "Naigaon": "05:27",
+        "Vasai Road": "05:32",
+        "Nallasopara": "05:37",
+        "VIRAR": "05:45"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94003",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "Mahalakshmi": "05:35",
+        "Lower Parel": "05:39",
+        "Prabhadevi": "05:42",
+        "DADAR": "05:45",
+        "Matunga Road": "05:47",
+        "Mahim Jn.": "05:50",
+        "BANDRA": "05:54",
+        "Khar Road": "05:57",
+        "Santa Cruz": "05:59",
+        "Vile Parle": "06:02",
+        "ANDHERI": "06:08",
+        "Jogeshwari": "06:12",
+        "Ram Mandir": "06:15",
+        "Goregaon": "06:17",
+        "Malad": "06:21",
+        "Kandivli": "06:24",
+        "BORIVALI": "06:30"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94005",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "05:40",
+        "Marine Lines": "05:43",
+        "Charni Road": "05:45",
+        "Grant Road": "05:48",
+        "M'BAI CENTRAL (L)": "05:50",
+        "Mahalakshmi": "05:53",
+        "Lower Parel": "05:56",
+        "Prabhadevi": "05:59",
+        "DADAR": "06:01",
+        "Matunga Road": "06:03",
+        "Mahim Jn.": "06:06",
+        "BANDRA": "06:11",
+        "Khar Road": "06:14",
+        "Santa Cruz": "06:16",
+        "Vile Parle": "06:19",
+        "ANDHERI": "06:24",
+        "Jogeshwari": "06:27",
+        "Ram Mandir": "06:30",
+        "Goregaon": "06:32",
+        "Malad": "06:36",
+        "Kandivli": "06:39",
+        "BORIVALI": "06:45"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94007",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "06:14",
+        "Marine Lines": "06:17",
+        "Charni Road": "06:19",
+        "Grant Road": "06:22",
+        "M'BAI CENTRAL (L)": "06:24",
+        "Mahalakshmi": "06:27",
+        "Lower Parel": "06:30",
+        "Prabhadevi": "06:33",
+        "DADAR": "06:35",
+        "Matunga Road": "06:37",
+        "Mahim Jn.": "06:40",
+        "BANDRA": "06:44",
+        "Khar Road": "06:47",
+        "Santa Cruz": "06:49",
+        "Vile Parle": "06:52",
+        "ANDHERI": "06:57",
+        "Jogeshwari": "07:00",
+        "Ram Mandir": "07:03",
+        "Goregaon": "07:05",
+        "Malad": "07:09",
+        "Kandivli": "07:12",
+        "BORIVALI": "07:19"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94009",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "Mahalakshmi": "06:39",
+        "Lower Parel": "06:42",
+        "Prabhadevi": "06:45",
+        "DADAR": "06:47",
+        "Matunga Road": "06:49",
+        "Mahim Jn.": "06:52",
+        "BANDRA": "06:56",
+        "Khar Road": "06:59",
+        "Santa Cruz": "07:01",
+        "Vile Parle": "07:04",
+        "ANDHERI": "07:10",
+        "Jogeshwari": "07:14",
+        "Ram Mandir": "07:17",
+        "Goregaon": "07:19",
+        "Malad": "07:23",
+        "Kandivli": "07:26",
+        "BORIVALI": "07:34"
+      },
+      "notes": [
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC",
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94011",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "BORIVALI": "07:37",
+        "Bhayandar": "07:52"
+      },
+      "notes": [
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC",
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94013",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "Bhayandar": "07:27",
+        "VIRAR": "07:52"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94015",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "06:35",
+        "Marine Lines": "06:39",
+        "Charni Road": "06:41",
+        "Grant Road": "06:44",
+        "M'BAI CENTRAL (L)": "06:46",
+        "Mahalakshmi": "06:49",
+        "Lower Parel": "06:52",
+        "Prabhadevi": "06:55",
+        "DADAR": "06:57",
+        "Matunga Road": "06:59",
+        "Mahim Jn.": "07:02",
+        "BANDRA": "07:06",
+        "Khar Road": "07:09",
+        "Santa Cruz": "07:12",
+        "Vile Parle": "07:15",
+        "ANDHERI": "07:20",
+        "Jogeshwari": "07:23",
+        "Ram Mandir": "07:26",
+        "Goregaon": "07:28",
+        "Malad": "07:32",
+        "Kandivli": "07:35",
+        "BORIVALI": "07:41"
+      },
+      "notes": [
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC",
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94017",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "Mahalakshmi": "06:57",
+        "Lower Parel": "07:00",
+        "Prabhadevi": "07:03",
+        "DADAR": "07:05",
+        "Matunga Road": "07:07",
+        "Mahim Jn.": "07:10",
+        "BANDRA": "07:13",
+        "Khar Road": "07:16",
+        "Santa Cruz": "07:19",
+        "Vile Parle": "07:22",
+        "ANDHERI": "07:27",
+        "Jogeshwari": "07:30",
+        "Ram Mandir": "07:33",
+        "Goregaon": "07:35",
+        "Malad": "07:39",
+        "Kandivli": "07:42",
+        "BORIVALI": "07:47",
+        "Dahisar": "07:51",
+        "Mira Road": "07:56",
+        "Bhayandar": "08:01",
+        "Naigaon": "08:06",
+        "Vasai Road": "08:11",
+        "Nallasopara": "08:16",
+        "VIRAR": "08:23"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94019",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "06:55",
+        "Marine Lines": "06:58",
+        "Charni Road": "07:00",
+        "Grant Road": "07:03",
+        "M'BAI CENTRAL (L)": "07:05",
+        "Mahalakshmi": "07:08",
+        "Lower Parel": "07:11",
+        "Prabhadevi": "07:14",
+        "DADAR": "07:16",
+        "Matunga Road": "07:18",
+        "Mahim Jn.": "07:21",
+        "BANDRA": "07:25",
+        "Khar Road": "07:28",
+        "Santa Cruz": "07:30",
+        "Vile Parle": "07:33",
+        "ANDHERI": "07:39",
+        "Jogeshwari": "07:42",
+        "Ram Mandir": "07:45",
+        "Goregaon": "07:47",
+        "Malad": "07:51",
+        "Kandivli": "07:54",
+        "BORIVALI": "08:00"
+      },
+      "notes": [],
+      "page": 1
+    },
+    {
+      "train_no": "94021",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "07:03",
+        "Marine Lines": "07:06",
+        "Charni Road": "07:08",
+        "Grant Road": "07:11",
+        "M'BAI CENTRAL (L)": "07:13",
+        "DADAR": "07:20",
+        "BANDRA": "07:25",
+        "ANDHERI": "07:33",
+        "BORIVALI": "07:45",
+        "Bhayandar": "07:59",
+        "Vasai Road": "08:10",
+        "VIRAR": "08:23"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94023",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "07:29",
+        "Marine Lines": "07:32",
+        "Charni Road": "07:34",
+        "Grant Road": "07:37",
+        "M'BAI CENTRAL (L)": "07:39",
+        "DADAR": "07:46",
+        "BANDRA": "07:52",
+        "ANDHERI": "08:00",
+        "BORIVALI": "08:16"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94025",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "07:36",
+        "Marine Lines": "07:39",
+        "Charni Road": "07:41",
+        "Grant Road": "07:44",
+        "M'BAI CENTRAL (L)": "07:46",
+        "DADAR": "07:53",
+        "BANDRA": "07:59",
+        "ANDHERI": "08:07",
+        "BORIVALI": "08:21",
+        "Dahisar": "08:25",
+        "Mira Road": "08:30",
+        "Bhayandar": "08:35",
+        "Naigaon": "08:41",
+        "Vasai Road": "08:46",
+        "Nallasopara": "08:51",
+        "VIRAR": "08:58"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 1
+    },
+    {
+      "train_no": "94027",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "07:54",
+        "Marine Lines": "07:57",
+        "Charni Road": "07:59",
+        "Grant Road": "08:02",
+        "M'BAI CENTRAL (L)": "08:04",
+        "DADAR": "08:11",
+        "BANDRA": "08:16",
+        "ANDHERI": "08:24",
+        "BORIVALI": "08:40",
+        "Dahisar": "08:44",
+        "Mira Road": "08:49",
+        "Bhayandar": "08:53",
+        "Naigaon": "08:59",
+        "Vasai Road": "09:04",
+        "Nallasopara": "09:09",
+        "VIRAR": "09:15"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94029",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "08:27",
+        "Marine Lines": "08:30",
+        "Charni Road": "08:32",
+        "Grant Road": "08:35",
+        "M'BAI CENTRAL (L)": "08:37",
+        "DADAR": "08:44",
+        "BANDRA": "08:49",
+        "ANDHERI": "08:58",
+        "BORIVALI": "09:13",
+        "Dahisar": "09:18",
+        "Mira Road": "09:23",
+        "Bhayandar": "09:28",
+        "Naigaon": "09:34",
+        "Vasai Road": "09:40",
+        "Nallasopara": "09:45",
+        "VIRAR": "09:51"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94031",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "08:46",
+        "M'BAI CENTRAL (L)": "08:54",
+        "DADAR": "09:01",
+        "BANDRA": "09:06",
+        "ANDHERI": "09:15",
+        "BORIVALI": "09:30"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94033",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "08:53",
+        "M'BAI CENTRAL (L)": "09:02",
+        "DADAR": "09:09",
+        "BANDRA": "09:14",
+        "ANDHERI": "09:22",
+        "BORIVALI": "09:36",
+        "Dahisar": "09:40",
+        "Mira Road": "09:45",
+        "Bhayandar": "09:50",
+        "Naigaon": "09:56",
+        "Vasai Road": "10:01",
+        "Nallasopara": "10:06",
+        "VIRAR": "10:12"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94037",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "09:23",
+        "Marine Lines": "09:26",
+        "Charni Road": "09:28",
+        "Grant Road": "09:31",
+        "M'BAI CENTRAL (L)": "09:33",
+        "DADAR": "09:40",
+        "BANDRA": "09:45",
+        "ANDHERI": "09:54",
+        "BORIVALI": "10:07"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94039",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "09:27",
+        "M'BAI CENTRAL (L)": "09:35",
+        "DADAR": "09:43",
+        "BANDRA": "09:48",
+        "ANDHERI": "09:57",
+        "BORIVALI": "10:11",
+        "Bhayandar": "10:21",
+        "Vasai Road": "10:31",
+        "VIRAR": "10:44"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94041",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "09:30",
+        "M'BAI CENTRAL (L)": "09:38",
+        "DADAR": "09:46",
+        "BANDRA": "09:51",
+        "ANDHERI": "10:00",
+        "BORIVALI": "10:15",
+        "Bhayandar": "10:29",
+        "Vasai Road": "10:40",
+        "VIRAR": "10:52"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94043",
+      "from_code": "ADH",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "09:56",
+        "Marine Lines": "09:59",
+        "Charni Road": "10:01",
+        "Grant Road": "10:04",
+        "M'BAI CENTRAL (L)": "10:06",
+        "Mahalakshmi": "10:09",
+        "Lower Parel": "10:12",
+        "Prabhadevi": "10:15",
+        "DADAR": "10:18",
+        "Matunga Road": "10:20",
+        "Mahim Jn.": "10:23",
+        "BANDRA": "10:27",
+        "Khar Road": "10:30",
+        "Santa Cruz": "10:33",
+        "Vile Parle": "10:36",
+        "ANDHERI": "10:41"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94045",
+      "from_code": "GMN",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "10:24",
+        "Marine Lines": "10:27",
+        "Charni Road": "10:29",
+        "Grant Road": "10:32",
+        "M'BAI CENTRAL (L)": "10:34",
+        "Mahalakshmi": "10:37",
+        "Lower Parel": "10:40",
+        "Prabhadevi": "10:43",
+        "DADAR": "10:45",
+        "Matunga Road": "10:47",
+        "Mahim Jn.": "10:50",
+        "BANDRA": "10:54",
+        "Khar Road": "10:57",
+        "Santa Cruz": "11:00",
+        "Vile Parle": "11:03",
+        "ANDHERI": "11:09",
+        "Jogeshwari": "11:12",
+        "Ram Mandir": "11:15",
+        "Goregaon": "11:20"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94047",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "10:32",
+        "M'BAI CENTRAL (L)": "10:42",
+        "DADAR": "10:49",
+        "BANDRA": "10:54",
+        "ANDHERI": "11:03",
+        "BORIVALI": "11:18"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94049",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "10:36",
+        "M'BAI CENTRAL (L)": "10:46",
+        "DADAR": "10:53",
+        "BANDRA": "10:58",
+        "ANDHERI": "11:07",
+        "BORIVALI": "11:21",
+        "Dahisar": "11:26",
+        "Mira Road": "11:31",
+        "Bhayandar": "11:38"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94051",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "10:53",
+        "M'BAI CENTRAL (L)": "11:03",
+        "DADAR": "11:10",
+        "BANDRA": "11:16",
+        "ANDHERI": "11:26",
+        "BORIVALI": "11:39",
+        "Dahisar": "11:42",
+        "Mira Road": "11:46",
+        "Bhayandar": "11:51",
+        "Naigaon": "11:57",
+        "Vasai Road": "12:02",
+        "Nallasopara": "12:07",
+        "VIRAR": "12:14"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94053",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "11:15",
+        "Marine Lines": "11:18",
+        "Charni Road": "11:20",
+        "Grant Road": "11:23",
+        "M'BAI CENTRAL (L)": "11:25",
+        "DADAR": "11:32",
+        "BANDRA": "11:38",
+        "ANDHERI": "11:47",
+        "BORIVALI": "12:01",
+        "Dahisar": "12:05",
+        "Mira Road": "12:10",
+        "Bhayandar": "12:15",
+        "Naigaon": "12:21",
+        "Vasai Road": "12:26",
+        "Nallasopara": "12:31",
+        "VIRAR": "12:38"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 2
+    },
+    {
+      "train_no": "94055",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "11:30",
+        "Marine Lines": "11:33",
+        "Charni Road": "11:35",
+        "Grant Road": "11:38",
+        "M'BAI CENTRAL (L)": "11:40",
+        "DADAR": "11:47",
+        "BANDRA": "11:53",
+        "ANDHERI": "12:03",
+        "BORIVALI": "12:16",
+        "Dahisar": "12:20",
+        "Mira Road": "12:25",
+        "Bhayandar": "12:31"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94057",
+      "from_code": "BCL",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "11:35",
+        "Marine Lines": "11:38",
+        "Charni Road": "11:40",
+        "Grant Road": "11:43",
+        "M'BAI CENTRAL (L)": "11:45"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94059",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "11:48",
+        "Marine Lines": "11:51",
+        "Charni Road": "11:53",
+        "Grant Road": "11:56",
+        "M'BAI CENTRAL (L)": "11:58",
+        "DADAR": "12:05",
+        "BANDRA": "12:10",
+        "ANDHERI": "12:18",
+        "BORIVALI": "12:30",
+        "Dahisar": "12:35",
+        "Mira Road": "12:40",
+        "Bhayandar": "12:45",
+        "Naigaon": "12:51",
+        "Vasai Road": "12:56",
+        "Nallasopara": "13:01",
+        "VIRAR": "13:09"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94063",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "12:16",
+        "Marine Lines": "12:19",
+        "Charni Road": "12:21",
+        "Grant Road": "12:24",
+        "M'BAI CENTRAL (L)": "12:26",
+        "DADAR": "12:33",
+        "BANDRA": "12:38",
+        "ANDHERI": "12:46",
+        "BORIVALI": "13:01",
+        "Bhayandar": "13:09",
+        "Vasai Road": "13:17",
+        "VIRAR": "13:27"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94065",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "12:29",
+        "Marine Lines": "12:32",
+        "Charni Road": "12:34",
+        "Grant Road": "12:37",
+        "M'BAI CENTRAL (L)": "12:39",
+        "DADAR": "12:46",
+        "BANDRA": "12:52",
+        "ANDHERI": "13:03",
+        "BORIVALI": "13:18",
+        "Bhayandar": "13:27",
+        "Vasai Road": "13:36",
+        "VIRAR": "13:46"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94067",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "12:34",
+        "Marine Lines": "12:37",
+        "Charni Road": "12:39",
+        "Grant Road": "12:42",
+        "M'BAI CENTRAL (L)": "12:44",
+        "DADAR": "12:51",
+        "BANDRA": "12:57",
+        "ANDHERI": "13:07",
+        "BORIVALI": "13:21",
+        "Dahisar": "13:27",
+        "Mira Road": "13:32",
+        "Bhayandar": "13:37",
+        "Naigaon": "13:43",
+        "Vasai Road": "13:48",
+        "Nallasopara": "13:53",
+        "VIRAR": "13:59"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94069",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "12:45",
+        "Marine Lines": "12:48",
+        "Charni Road": "12:50",
+        "Grant Road": "12:53",
+        "M'BAI CENTRAL (L)": "12:55",
+        "Mahalakshmi": "12:58",
+        "Lower Parel": "13:01",
+        "Prabhadevi": "13:04",
+        "DADAR": "13:06",
+        "Matunga Road": "13:08",
+        "Mahim Jn.": "13:11",
+        "BANDRA": "13:15",
+        "Khar Road": "13:18",
+        "Santa Cruz": "13:21",
+        "Vile Parle": "13:24",
+        "ANDHERI": "13:29",
+        "Jogeshwari": "13:32",
+        "Ram Mandir": "13:35",
+        "Goregaon": "13:37",
+        "Malad": "13:41",
+        "Kandivli": "13:44",
+        "BORIVALI": "13:50"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94071",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "13:08",
+        "Marine Lines": "13:11",
+        "Charni Road": "13:13",
+        "Grant Road": "13:16",
+        "M'BAI CENTRAL (L)": "13:18",
+        "Mahalakshmi": "13:21",
+        "Lower Parel": "13:24",
+        "Prabhadevi": "13:27",
+        "DADAR": "13:29",
+        "Matunga Road": "13:31",
+        "Mahim Jn.": "13:34",
+        "BANDRA": "13:38",
+        "Khar Road": "13:41",
+        "Santa Cruz": "13:44",
+        "Vile Parle": "13:47",
+        "ANDHERI": "13:52",
+        "Jogeshwari": "13:55",
+        "Ram Mandir": "13:58",
+        "Goregaon": "14:00",
+        "Malad": "14:04",
+        "Kandivli": "14:07",
+        "BORIVALI": "14:13",
+        "Dahisar": "14:18",
+        "Mira Road": "14:23",
+        "Bhayandar": "14:28",
+        "Naigaon": "14:34",
+        "Vasai Road": "14:40",
+        "Nallasopara": "14:45",
+        "VIRAR": "14:52"
+      },
+      "notes": [],
+      "page": 3
+    },
+    {
+      "train_no": "94073",
+      "from_code": "BSR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "13:16",
+        "Marine Lines": "13:19",
+        "Charni Road": "13:21",
+        "Grant Road": "13:24",
+        "M'BAI CENTRAL (L)": "13:26",
+        "DADAR": "13:33",
+        "BANDRA": "13:38",
+        "ANDHERI": "13:46",
+        "BORIVALI": "14:01",
+        "Dahisar": "14:06",
+        "Mira Road": "14:11",
+        "Bhayandar": "14:16",
+        "Naigaon": "14:22",
+        "Vasai Road": "14:27"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94075",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "13:53",
+        "Marine Lines": "13:56",
+        "Charni Road": "13:59",
+        "Grant Road": "14:01",
+        "M'BAI CENTRAL (L)": "14:04",
+        "DADAR": "14:12",
+        "BANDRA": "14:18",
+        "ANDHERI": "14:28",
+        "BORIVALI": "14:41",
+        "Bhayandar": "14:50",
+        "Vasai Road": "14:58",
+        "VIRAR": "15:08"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94077",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "13:55",
+        "Marine Lines": "13:58",
+        "Charni Road": "14:00",
+        "Grant Road": "14:03",
+        "M'BAI CENTRAL (L)": "14:05",
+        "Mahalakshmi": "14:08",
+        "Lower Parel": "14:11",
+        "Prabhadevi": "14:13",
+        "DADAR": "14:15",
+        "Matunga Road": "14:18",
+        "Mahim Jn.": "14:22",
+        "BANDRA": "14:25",
+        "Khar Road": "14:28",
+        "Santa Cruz": "14:31",
+        "Vile Parle": "14:36",
+        "ANDHERI": "14:39",
+        "Jogeshwari": "14:42",
+        "Ram Mandir": "14:45",
+        "Goregaon": "14:47",
+        "Malad": "14:51",
+        "Kandivli": "14:54",
+        "BORIVALI": "15:00",
+        "Dahisar": "15:05",
+        "Mira Road": "15:10",
+        "Bhayandar": "15:17"
+      },
+      "notes": [],
+      "page": 3
+    },
+    {
+      "train_no": "94079",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "14:10",
+        "Marine Lines": "14:13",
+        "Charni Road": "14:15",
+        "Grant Road": "14:18",
+        "M'BAI CENTRAL (L)": "14:20",
+        "DADAR": "14:27",
+        "BANDRA": "14:33",
+        "ANDHERI": "14:42",
+        "BORIVALI": "14:53",
+        "Dahisar": "14:58",
+        "Mira Road": "15:02",
+        "Bhayandar": "15:07",
+        "Naigaon": "15:13",
+        "Vasai Road": "15:18",
+        "Nallasopara": "15:24",
+        "VIRAR": "15:34"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94081",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "ANDHERI": "15:27",
+        "Jogeshwari": "15:31",
+        "Ram Mandir": "15:34",
+        "Goregaon": "15:36",
+        "Malad": "15:40",
+        "Kandivli": "15:43",
+        "BORIVALI": "15:49",
+        "Dahisar": "15:54",
+        "Mira Road": "15:58",
+        "Bhayandar": "16:04"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 3
+    },
+    {
+      "train_no": "94083",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "14:53",
+        "Marine Lines": "14:56",
+        "Charni Road": "14:58",
+        "Grant Road": "15:01",
+        "M'BAI CENTRAL (L)": "15:03",
+        "DADAR": "15:10",
+        "BANDRA": "15:16",
+        "ANDHERI": "15:24",
+        "BORIVALI": "15:38",
+        "Dahisar": "15:42",
+        "Mira Road": "15:46",
+        "Bhayandar": "15:51",
+        "Naigaon": "15:57",
+        "Vasai Road": "16:01",
+        "Nallasopara": "16:06",
+        "VIRAR": "16:15"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94085",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "BORIVALI": "15:44",
+        "Dahisar": "15:50",
+        "Mira Road": "15:55",
+        "Bhayandar": "16:00",
+        "Naigaon": "16:06",
+        "Vasai Road": "16:11",
+        "Nallasopara": "16:16",
+        "VIRAR": "16:25"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94087",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "15:05",
+        "Marine Lines": "15:08",
+        "Charni Road": "15:10",
+        "Grant Road": "15:13",
+        "M'BAI CENTRAL (L)": "15:15",
+        "Mahalakshmi": "15:18",
+        "Lower Parel": "15:21",
+        "Prabhadevi": "15:24",
+        "DADAR": "15:27",
+        "Matunga Road": "15:30",
+        "Mahim Jn.": "15:33",
+        "BANDRA": "15:38",
+        "Khar Road": "15:41",
+        "Santa Cruz": "15:43",
+        "Vile Parle": "15:46",
+        "ANDHERI": "15:51",
+        "Jogeshwari": "15:55",
+        "Ram Mandir": "15:58",
+        "Goregaon": "16:00",
+        "Malad": "16:04",
+        "Kandivli": "16:07",
+        "BORIVALI": "16:13"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94089",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "15:07",
+        "Marine Lines": "15:10",
+        "Charni Road": "15:12",
+        "Grant Road": "15:15",
+        "M'BAI CENTRAL (L)": "15:17",
+        "DADAR": "15:24",
+        "BANDRA": "15:30",
+        "ANDHERI": "15:39",
+        "BORIVALI": "15:53",
+        "Dahisar": "15:57",
+        "Mira Road": "16:02",
+        "Bhayandar": "16:07",
+        "Naigaon": "16:13",
+        "Vasai Road": "16:18",
+        "Nallasopara": "16:23",
+        "VIRAR": "16:30"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94091",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "15:26",
+        "Marine Lines": "15:29",
+        "Charni Road": "15:31",
+        "Grant Road": "15:34",
+        "M'BAI CENTRAL (L)": "15:36",
+        "DADAR": "15:44",
+        "BANDRA": "15:49",
+        "ANDHERI": "15:57",
+        "BORIVALI": "16:09",
+        "Dahisar": "16:13",
+        "Mira Road": "16:18",
+        "Bhayandar": "16:23",
+        "Naigaon": "16:29",
+        "Vasai Road": "16:33",
+        "Nallasopara": "16:38",
+        "VIRAR": "16:45"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94093",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "15:32",
+        "Marine Lines": "15:35",
+        "Charni Road": "15:37",
+        "Grant Road": "15:40",
+        "M'BAI CENTRAL (L)": "15:42",
+        "DADAR": "15:50",
+        "BANDRA": "15:55",
+        "ANDHERI": "16:03",
+        "BORIVALI": "16:17",
+        "Dahisar": "16:23",
+        "Mira Road": "16:28",
+        "Bhayandar": "16:35"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94095",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "Mahalakshmi": "16:30",
+        "Lower Parel": "16:33",
+        "Prabhadevi": "16:36",
+        "DADAR": "16:38",
+        "Matunga Road": "16:40",
+        "Mahim Jn.": "16:43",
+        "BANDRA": "16:47",
+        "Khar Road": "16:50",
+        "Santa Cruz": "16:53",
+        "Vile Parle": "16:56",
+        "ANDHERI": "17:01",
+        "Jogeshwari": "17:04",
+        "Ram Mandir": "17:07",
+        "Goregaon": "17:09",
+        "Malad": "17:13",
+        "Kandivli": "17:16",
+        "BORIVALI": "17:23"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94097",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "16:39",
+        "Marine Lines": "16:42",
+        "Charni Road": "16:44",
+        "Grant Road": "16:47",
+        "M'BAI CENTRAL (L)": "16:49",
+        "DADAR": "16:56",
+        "BANDRA": "17:01",
+        "ANDHERI": "17:10",
+        "BORIVALI": "17:24",
+        "Dahisar": "17:30",
+        "Mira Road": "17:35",
+        "Bhayandar": "17:40",
+        "Naigaon": "17:46",
+        "Vasai Road": "17:51",
+        "Nallasopara": "17:56",
+        "VIRAR": "18:04"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94099",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "ANDHERI": "17:25",
+        "BORIVALI": "17:39",
+        "Dahisar": "17:44",
+        "Mira Road": "17:49",
+        "Bhayandar": "17:54",
+        "Naigaon": "18:00",
+        "Vasai Road": "18:05",
+        "Nallasopara": "18:11",
+        "VIRAR": "18:20"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94101",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "17:03",
+        "Marine Lines": "17:06",
+        "Charni Road": "17:08",
+        "Grant Road": "17:11",
+        "M'BAI CENTRAL (L)": "17:15",
+        "DADAR": "17:23",
+        "BANDRA": "17:28",
+        "ANDHERI": "17:36",
+        "BORIVALI": "17:49",
+        "Dahisar": "17:54",
+        "Mira Road": "17:59",
+        "Bhayandar": "18:04",
+        "Naigaon": "18:10",
+        "Vasai Road": "18:15",
+        "Nallasopara": "18:20",
+        "VIRAR": "18:27"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94103",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "17:15",
+        "Marine Lines": "17:18",
+        "Charni Road": "17:20",
+        "Grant Road": "17:23",
+        "M'BAI CENTRAL (L)": "17:25",
+        "DADAR": "17:33",
+        "BANDRA": "17:40",
+        "ANDHERI": "17:48",
+        "BORIVALI": "18:02"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94105",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "17:28",
+        "Marine Lines": "17:31",
+        "Charni Road": "17:33",
+        "Grant Road": "17:36",
+        "M'BAI CENTRAL (L)": "17:38",
+        "DADAR": "17:45",
+        "BANDRA": "17:50",
+        "ANDHERI": "17:58",
+        "BORIVALI": "18:20"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94107",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "17:50",
+        "Marine Lines": "17:53",
+        "Charni Road": "17:55",
+        "Grant Road": "17:58",
+        "M'BAI CENTRAL (L)": "18:00",
+        "DADAR": "18:08",
+        "BANDRA": "18:13",
+        "ANDHERI": "18:23",
+        "BORIVALI": "18:38"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 4
+    },
+    {
+      "train_no": "94109",
+      "from_code": "GMN",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "17:57",
+        "Marine Lines": "18:00",
+        "Charni Road": "18:02",
+        "Grant Road": "18:05",
+        "M'BAI CENTRAL (L)": "18:07",
+        "Mahalakshmi": "18:10",
+        "Lower Parel": "18:13",
+        "Prabhadevi": "18:16",
+        "DADAR": "18:18",
+        "Matunga Road": "18:20",
+        "Mahim Jn.": "18:23",
+        "BANDRA": "18:27",
+        "Khar Road": "18:30",
+        "Santa Cruz": "18:33",
+        "Vile Parle": "18:36",
+        "ANDHERI": "18:41",
+        "Jogeshwari": "18:45",
+        "Ram Mandir": "18:48",
+        "Goregaon": "18:51"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94111",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "18:06",
+        "Marine Lines": "18:09",
+        "Charni Road": "18:11",
+        "Grant Road": "18:14",
+        "M'BAI CENTRAL (L)": "18:16",
+        "DADAR": "18:23",
+        "BANDRA": "18:29",
+        "ANDHERI": "18:38",
+        "BORIVALI": "18:52",
+        "Dahisar": "19:01",
+        "Mira Road": "19:06",
+        "Bhayandar": "19:13"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "*",
+        "94113",
+        "Halt"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94113",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "18:22",
+        "Marine Lines": "18:25",
+        "Charni Road": "18:27",
+        "Grant Road": "18:30",
+        "M'BAI CENTRAL (L)": "18:32",
+        "DADAR": "18:39",
+        "BANDRA": "18:45",
+        "ANDHERI": "18:54",
+        "Dahisar": "19:12",
+        "Mira Road": "19:17",
+        "Bhayandar": "19:22",
+        "Naigaon": "19:28",
+        "Vasai Road": "19:33",
+        "Nallasopara": "19:39",
+        "VIRAR": "19:46"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC",
+        "P*",
+        "Will",
+        "Not",
+        "at",
+        "Borivali"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94115",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "18:28",
+        "Marine Lines": "18:31",
+        "Charni Road": "18:33",
+        "Grant Road": "18:36",
+        "M'BAI CENTRAL (L)": "18:38",
+        "DADAR": "18:45",
+        "BANDRA": "18:51",
+        "ANDHERI": "19:00",
+        "BORIVALI": "19:16",
+        "Dahisar": "19:21",
+        "Mira Road": "19:26",
+        "Bhayandar": "19:31",
+        "Naigaon": "19:36",
+        "Vasai Road": "19:41",
+        "Nallasopara": "19:46",
+        "VIRAR": "19:56"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94117",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "18:38",
+        "Marine Lines": "18:41",
+        "Charni Road": "18:43",
+        "Grant Road": "18:46",
+        "M'BAI CENTRAL (L)": "18:48",
+        "Mahalakshmi": "18:51",
+        "Lower Parel": "18:54",
+        "Prabhadevi": "18:57",
+        "DADAR": "18:59",
+        "Matunga Road": "19:01",
+        "Mahim Jn.": "19:04",
+        "BANDRA": "19:08",
+        "Khar Road": "19:12",
+        "Santa Cruz": "19:16",
+        "Vile Parle": "19:20",
+        "ANDHERI": "19:25",
+        "Jogeshwari": "19:29",
+        "Ram Mandir": "19:32",
+        "Goregaon": "19:34",
+        "Malad": "19:38",
+        "Kandivli": "19:41",
+        "BORIVALI": "19:47",
+        "Dahisar": "19:51",
+        "Mira Road": "19:56",
+        "Bhayandar": "20:03"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94119",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "19:00",
+        "Marine Lines": "19:03",
+        "Charni Road": "19:05",
+        "Grant Road": "19:08",
+        "M'BAI CENTRAL (L)": "19:10",
+        "DADAR": "19:18",
+        "BANDRA": "19:23",
+        "ANDHERI": "19:31",
+        "BORIVALI": "19:44",
+        "Dahisar": "19:49",
+        "Mira Road": "19:54",
+        "Bhayandar": "19:59",
+        "Naigaon": "20:05",
+        "Vasai Road": "20:10",
+        "Nallasopara": "20:15",
+        "VIRAR": "20:22"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94121",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "DADAR": "19:38",
+        "BANDRA": "19:45",
+        "ANDHERI": "19:54",
+        "BORIVALI": "20:12",
+        "Dahisar": "20:16",
+        "Mira Road": "20:21",
+        "Bhayandar": "20:27"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94123",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "BANDRA": "19:52",
+        "Khar Road": "19:56",
+        "Santa Cruz": "19:59",
+        "Vile Parle": "20:02",
+        "ANDHERI": "20:07",
+        "Jogeshwari": "20:10",
+        "Ram Mandir": "20:13",
+        "Goregaon": "20:15",
+        "Malad": "20:20",
+        "Kandivli": "20:23",
+        "BORIVALI": "20:28",
+        "Dahisar": "20:33",
+        "Mira Road": "20:38",
+        "Bhayandar": "20:43"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94125",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "19:25",
+        "Marine Lines": "19:28",
+        "Charni Road": "19:30",
+        "Grant Road": "19:33",
+        "M'BAI CENTRAL (L)": "19:35",
+        "DADAR": "19:42",
+        "BANDRA": "19:48",
+        "ANDHERI": "19:57",
+        "Jogeshwari": "20:01",
+        "Ram Mandir": "--",
+        "Goregaon": "20:06",
+        "Malad": "20:10",
+        "Kandivli": "20:13",
+        "BORIVALI": "20:19"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94127",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "19:43",
+        "Marine Lines": "19:46",
+        "Charni Road": "19:48",
+        "Grant Road": "19:51",
+        "M'BAI CENTRAL (L)": "19:53",
+        "DADAR": "20:01",
+        "BANDRA": "20:06",
+        "ANDHERI": "20:15",
+        "BORIVALI": "20:32",
+        "Dahisar": "20:36",
+        "Mira Road": "20:41",
+        "Bhayandar": "20:46",
+        "Naigaon": "20:52",
+        "Vasai Road": "20:57",
+        "Nallasopara": "21:02",
+        "VIRAR": "21:09"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94129",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "19:58",
+        "Marine Lines": "20:01",
+        "Charni Road": "20:03",
+        "Grant Road": "20:06",
+        "M'BAI CENTRAL (L)": "20:08",
+        "DADAR": "20:15",
+        "BANDRA": "20:21",
+        "ANDHERI": "20:31",
+        "BORIVALI": "20:45",
+        "Dahisar": "20:49",
+        "Mira Road": "20:54",
+        "Bhayandar": "20:59",
+        "Naigaon": "21:05",
+        "Vasai Road": "21:10",
+        "Nallasopara": "21:15",
+        "VIRAR": "21:21"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94131",
+      "from_code": "GMN",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "20:04",
+        "Marine Lines": "20:07",
+        "Charni Road": "20:09",
+        "Grant Road": "20:12",
+        "M'BAI CENTRAL (L)": "20:14",
+        "Mahalakshmi": "20:17",
+        "Lower Parel": "20:20",
+        "Prabhadevi": "20:23",
+        "DADAR": "20:25",
+        "Matunga Road": "20:27",
+        "Mahim Jn.": "20:30",
+        "BANDRA": "20:34",
+        "Khar Road": "20:37",
+        "Santa Cruz": "20:40",
+        "Vile Parle": "20:43",
+        "ANDHERI": "20:50",
+        "Jogeshwari": "20:54",
+        "Ram Mandir": "20:57",
+        "Goregaon": "21:02"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94133",
+      "from_code": "NSP",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "20:27",
+        "Marine Lines": "20:30",
+        "Charni Road": "20:32",
+        "Grant Road": "20:35",
+        "M'BAI CENTRAL (L)": "20:37",
+        "DADAR": "20:44",
+        "BANDRA": "20:49",
+        "ANDHERI": "20:58",
+        "BORIVALI": "21:14",
+        "Dahisar": "21:19",
+        "Mira Road": "21:24",
+        "Bhayandar": "21:29",
+        "Naigaon": "21:34",
+        "Vasai Road": "21:39",
+        "Nallasopara": "21:45"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 5
+    },
+    {
+      "train_no": "94135",
+      "from_code": "BSR",
+      "car_type": "12 CAR",
+      "times": {
+        "ANDHERI": "21:08",
+        "Jogeshwari": "21:12",
+        "Ram Mandir": "21:15",
+        "Goregaon": "21:17",
+        "Malad": "21:21",
+        "Kandivli": "21:24",
+        "BORIVALI": "21:30",
+        "Dahisar": "21:34",
+        "Mira Road": "21:39",
+        "Bhayandar": "21:45",
+        "Naigaon": "21:51",
+        "Vasai Road": "21:58"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94137",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "DADAR": "21:19",
+        "BANDRA": "21:26",
+        "ANDHERI": "21:35",
+        "BORIVALI": "21:52",
+        "Dahisar": "21:58",
+        "Mira Road": "22:03",
+        "Bhayandar": "22:08",
+        "Naigaon": "22:14",
+        "Vasai Road": "22:20",
+        "Nallasopara": "22:25",
+        "VIRAR": "22:32"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94139",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "21:23",
+        "Marine Lines": "21:26",
+        "Charni Road": "21:28",
+        "Grant Road": "21:31",
+        "M'BAI CENTRAL (L)": "21:33",
+        "Mahalakshmi": "21:36",
+        "Lower Parel": "21:39",
+        "Prabhadevi": "21:42",
+        "DADAR": "21:44",
+        "Matunga Road": "21:46",
+        "Mahim Jn.": "21:49",
+        "BANDRA": "21:53",
+        "Khar Road": "21:56",
+        "Santa Cruz": "21:58",
+        "Vile Parle": "22:01",
+        "ANDHERI": "22:07",
+        "Jogeshwari": "22:10",
+        "Ram Mandir": "22:13",
+        "Goregaon": "22:15",
+        "Malad": "22:19",
+        "Kandivli": "22:22",
+        "BORIVALI": "22:28",
+        "Dahisar": "22:32",
+        "Mira Road": "22:37",
+        "Bhayandar": "22:43"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "NON",
+        "AC",
+        "ON",
+        "SAT",
+        "&",
+        "SUN"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94141",
+      "from_code": "BVI",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "21:39",
+        "Marine Lines": "21:42",
+        "Charni Road": "21:44",
+        "Grant Road": "21:47",
+        "M'BAI CENTRAL (L)": "21:49",
+        "Mahalakshmi": "21:52",
+        "Lower Parel": "21:55",
+        "Prabhadevi": "21:58",
+        "DADAR": "22:00",
+        "Matunga Road": "22:02",
+        "Mahim Jn.": "22:05",
+        "BANDRA": "22:09",
+        "Khar Road": "22:12",
+        "Santa Cruz": "22:14",
+        "Vile Parle": "22:17",
+        "ANDHERI": "22:23",
+        "Jogeshwari": "22:27",
+        "Ram Mandir": "22:30",
+        "Goregaon": "22:32",
+        "Malad": "22:36",
+        "Kandivli": "22:39",
+        "BORIVALI": "22:46"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94143",
+      "from_code": "MDD",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "21:51",
+        "Marine Lines": "21:54",
+        "Charni Road": "21:56",
+        "Grant Road": "21:59",
+        "M'BAI CENTRAL (L)": "22:01",
+        "DADAR": "22:08",
+        "BANDRA": "22:14",
+        "ANDHERI": "22:22",
+        "Malad": "22:34"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94145",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "21:57",
+        "Marine Lines": "22:00",
+        "Charni Road": "22:02",
+        "Grant Road": "22:05",
+        "M'BAI CENTRAL (L)": "22:07",
+        "DADAR": "22:14",
+        "BANDRA": "22:20",
+        "ANDHERI": "22:29",
+        "BORIVALI": "22:45",
+        "Dahisar": "22:50",
+        "Mira Road": "22:55",
+        "Bhayandar": "23:00",
+        "Naigaon": "23:06",
+        "Vasai Road": "23:11",
+        "Nallasopara": "23:16",
+        "VIRAR": "23:22"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94147",
+      "from_code": "VR",
+      "car_type": "12 CAR",
+      "times": {
+        "BORIVALI": "23:19",
+        "Dahisar": "23:24",
+        "Mira Road": "23:29",
+        "Bhayandar": "23:34",
+        "Naigaon": "23:40",
+        "Vasai Road": "23:45",
+        "Nallasopara": "23:50",
+        "VIRAR": "23:56"
+      },
+      "notes": [
+        "Air",
+        "Condition",
+        "ON",
+        "SAT",
+        "&",
+        "SUN",
+        "NON",
+        "AC"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94149",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "ANDHERI": "23:55",
+        "BORIVALI": "00:10",
+        "Dahisar": "00:13",
+        "Mira Road": "00:18",
+        "Bhayandar": "00:25"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    },
+    {
+      "train_no": "94151",
+      "from_code": "BYR",
+      "car_type": "12 CAR",
+      "times": {
+        "CHURCHGATE": "00:13",
+        "Marine Lines": "00:16",
+        "Charni Road": "00:18",
+        "Grant Road": "00:21",
+        "M'BAI CENTRAL (L)": "00:23",
+        "Mahalakshmi": "00:26",
+        "Lower Parel": "00:29",
+        "Prabhadevi": "00:32",
+        "DADAR": "00:34",
+        "Matunga Road": "00:36",
+        "Mahim Jn.": "00:39",
+        "BANDRA": "00:44",
+        "Khar Road": "00:47",
+        "Santa Cruz": "00:49",
+        "Vile Parle": "00:52",
+        "ANDHERI": "00:57",
+        "Jogeshwari": "01:00",
+        "Ram Mandir": "01:03",
+        "Goregaon": "01:05",
+        "Malad": "01:09",
+        "Kandivli": "01:12",
+        "BORIVALI": "01:18",
+        "Dahisar": "01:22",
+        "Mira Road": "01:27",
+        "Bhayandar": "01:33"
+      },
+      "notes": [
+        "Air",
+        "Condition"
+      ],
+      "page": 6
+    }
+  ],
+  "unassigned_stray_text": []
+}
